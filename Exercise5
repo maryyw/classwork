@@ -1,8 +1,12 @@
 more_liter = float(input("Input the number of bottles that are more than one liter: "))
 less_liter = float(input("Input the number of bottles that are one liter or less: "))
 
-more_liter_cost = more_liter * 0.25
-less_liter_cost = less_liter * 0.10
+more = 0.25
+less = 0.10
 
-print("For bottles more than one liter, you have earned $" + str(more_liter_cost) +
-      ". For bottles one liter or less, you have earned $" + str(less_liter_cost))
+more_liter_cost = more_liter * more
+less_liter_cost = less_liter * less
+
+refund = more_liter_cost + less_liter_cost
+
+print("Your refund amount is $" + str(refund))
