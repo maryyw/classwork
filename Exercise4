@@ -1,0 +1,8 @@
+sqAcre = 43560
+
+length = float(input("Enter the length of the field (ft): "))
+width = float(input("Enter the length of the field (ft): "))
+
+area = length * width / sqAcre
+
+print("The area of your farm is " + str(area) + " acres")
