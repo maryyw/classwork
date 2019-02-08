@@ -1,6 +1,4 @@
-name = "Mary Wang"
-address = "7 Candy Town Drive"
-city = "Nowhere Land, Ontario, M3B 2G2"\
-country = "Bora Bora"
-
-print(name + /n + address + /n + city + /n + country)
+print("Mary Wang")
+print("7 Candy Town Drive")
+print("Nowhere Land, Ontario, M3B 2G2")
+print("Bora Bora")
