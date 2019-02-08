@@ -1,0 +1,6 @@
+name = "Mary Wang"
+address = "7 Candy Town Drive"
+city = "Nowhere Land, Ontario, M3B 2G2"\
+country = "Bora Bora"
+
+print(name + /n + address + /n + city + /n + country)
