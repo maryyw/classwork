@@ -1,0 +1,34 @@
+import arcade
+
+
+WIDTH = 640
+HEIGHT = 480
+
+arcade.open_window(WIDTH, HEIGHT, "My Drawing")
+arcade.set_background_color(arcade.color.SKY_BLUE)
+
+arcade.start_render()
+# Begin drawing
+
+# SUN
+arcade.draw_circle_filled(540, 380, 50, arcade.color.YELLOW)
+# GRASS
+arcade.draw_rectangle_filled(320, 30, 640, 100, arcade.color.GREEN)
+
+# TREE 1 (RIGHT)
+arcade.draw_rectangle_filled(515, 100, 20, 75, arcade.color.DARK_BROWN)
+arcade.draw_triangle_filled(475, 112.5, 515, 187.5, 555, 112.5,  arcade.color.UP_FOREST_GREEN)
+
+# TREE 2 (MIDDLE)
+arcade.draw_rectangle_filled(440, 100, 20, 75, arcade.color.DARK_BROWN)
+arcade.draw_triangle_filled(400, 112.5, 440, 187.5, 480, 112.5,  arcade.color.UP_FOREST_GREEN)
+
+# TREE 3 (LEFT)
+arcade.draw_rectangle_filled(200, 100, 20, 75, arcade.color.DARK_BROWN)
+arcade.draw_triangle_filled(160, 112.5, 200, 187.5, 240, 112.5,  arcade.color.PURPLE)
+
+
+
+# End drawing
+arcade.finish_render()
+arcade.run()
